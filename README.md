@@ -12,8 +12,8 @@ The current version is in Lua.  See [ContentDB-Lua](https://github.com/foundpatt
 
 ## Format
 
-ContentDB mixes structured and unstructured data formats.  The header uses the [SCL](https://github.com/Keats/scl) data format, and the body uses the [Markdown](https://en.wikipedia.org/wiki/Markdown) markup format.
+ContentDB combines one structured and one unstructured data forat.  Headers use [SCL](https://github.com/Keats/scl), and bodies use [Markdown](https://en.wikipedia.org/wiki/Markdown) or Lua.
 
-Fields have Values.  Relationships use the target's model for its field.
+Header field values provide a mechanism to represent attributes of document virtual text world.  Relationship fields work by using the target's model for its field
 
 UUIDv4 is the default id.  Short names are a missing feature.
