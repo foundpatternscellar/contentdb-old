@@ -18,7 +18,7 @@ ContentDB combines one structured and one unstructured data format.  Headers use
 
 Header field values provide a mechanism to represent attributes of world entities in virtual document texts.  Relationship fields work by using the target's model for its field.  You can see this implemented in Python in the pelican plugin above.
 
-Default ID is UUIDv4 but will soon change to [ULID](https://github.com/dylanhart/ulid-rs).
+Default ID is UUIDv4.
 
 Short names are a missing feature.  https://github.com/foundpatterns/contentdb/issues/4
 
